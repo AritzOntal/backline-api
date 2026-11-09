@@ -9,7 +9,7 @@ Aplicación para que los empleados de una empresa de alquiler de guitarras gesti
 - **Inventario de guitarras:** listar, ver, añadir, editar y eliminar.
 - **Alquileres:** desde cada guitarra, el botón **RENT** abre los alquileres activos y un formulario con el id de la guitarra ya rellenado.
 - **Duración del alquiler** calculada al consultar uno concreto.
-- **Validación y errores HTTP claros:** `400` si faltan datos o la fecha de devolución no es válida, `404` si el recurso no existe, `201` al crear. Si se intenta alquilar una guitarra que no existe, la clave foránea lo impide y la API devuelve un error.
+- **Validación y errores HTTP:** `400` si faltan datos o la fecha de devolución no es válida, `404` si el recurso no existe, `201` al crear. Si se intenta alquilar una guitarra que no existe, la clave foránea lo impide y la API devuelve un error.
 
 ---
 
